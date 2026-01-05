@@ -50,4 +50,4 @@ if __name__=="__main__":
             'loss': avg_train_loss
         }, model_path)
 
-        print ('Epoch:{}, Loss: {loss:.4f}, Acc{:.4f}'.format(epoch+1,avg_train_loss,avg_train_acc))
+        print ('Epoch:{}, Loss: {loss:.4f}, Acc: {acc:.4f}'.format(epoch+1,loss=avg_train_loss,acc=avg_train_acc))
